@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            overflow-x: hidden;
+            font-family: -apple-system,
+                        BlinkMacSystemFont,
+                        "Segoe UI",
+                        "Roboto",
+                        "Noto Sans",
+                        "Ubuntu",
+                        "Droid Sans",
+                        "Helvetica Neue",
+                        sans-serif;
+            font-size: 14px;
+        }
+
+        #menu > div {
+            display: block;
+            width: 260px;
+            height: 32px;
+            padding: 4px 12px 0px 12px;
+            background-color: #FFFFFF;
+            color: #172B4D;
+        }
+        #menu > div:hover {
+            background-color: #F4F5F7;
+        }
+
+        #menu > div:focus {
+            background-color: #EBECF0;
+            color: #172B4D;
+            outline: #4C9AFF solid 1px;
+        }
+
+        #menu > div:active {
+            background-color: #B3D4FF;
+        }
+
+        #menu a {
+            display: block;
+            text-decoration: none;
+            vertical-align: middle;
+            line-height: 32px;
+            width: 100%;
+            outline: none;
+        }
+
+        #menu a, #menu a:hover, #menu a:visited {
+            color: #172B4D;
+        }
+
+        #menu a:active {
+            color: #0052CC;
+        }
+
+    </style>
+    <script src="config.js"></script>
+    <script src="RandomUtil.js"></script>
+    <script src="RoomnameGenerator.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <div tabindex="1">
+            <a href="https://calendar.google.com/calendar/r/eventedit?action=TEMPLATE&autoCreateMeeting=true&details={MEET_DESCRIPTION}&location={MEET_LOCATION}">
+                Create Google Calendar meeting
+            </a>
+        </div>
+    </div>
+</body>
+</html>
