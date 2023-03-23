@@ -1,3 +1,4 @@
+//guys you can add whatever words as your wish in all the four variables (eg) you may add jumbled words and numeric codes to form a room.
 //var nouns = [
 //];
 var pluralNouns = [
