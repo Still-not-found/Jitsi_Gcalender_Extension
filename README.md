@@ -1,4 +1,7 @@
 # jitsi_calendar
+    This is a google calender extension for scheduling the jitsi-meet in google calender and if you are using your selfhosted
+jitsi instance then you should change the domain name "meet.jit.si" into "FQDN".
+
 Jitsi Calendar Extension
 
 ### Installing from .crx file
