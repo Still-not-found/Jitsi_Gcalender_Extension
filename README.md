@@ -23,9 +23,9 @@ note : if failed to install .crx, please follow instruction installing from scra
 ### Installing from scratch
 
 To Install Extension :
-1. Clone this repo : git clone https://github.com/Still-not-found/Jitsi_Gcalender_Extension.git
-2. Go to chrome://extensions/ and check the box for Developer mode in the top right.
-3. Choose Load Unpackage Option
-4. Select the root directory of the extension to pack
-5. Install
+   * 1. Clone this repo : git clone https://github.com/Still-not-found/Jitsi_Gcalender_Extension.git
+   * 2. Go to chrome://extensions/ and check the box for Developer mode in the top right.
+   * 3. Choose Load Unpackage Option
+   * 4. Select the root directory of the extension to pack
+   * 5. Install
 
